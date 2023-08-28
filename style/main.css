@@ -1,0 +1,29 @@
+/* background needs to be dark */
+
+@font-face {
+    font-family: 'Motherish';
+    src: url('../fnt/Motherish-Medium.ttf');
+
+}
+
+body {
+  background-color: #01161E;
+  font-family: 'Motherish', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* logo needs to be big and centered */
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.logo {
+    background-color: #364156;
+    text-align: center;
+}
