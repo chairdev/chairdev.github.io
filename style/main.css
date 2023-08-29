@@ -16,30 +16,30 @@ body {
 
 nav {
     background-color: #293141;
-    overflow: hidden;
-  }
+    position: fixed;
+}
   
-  nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  nav ul li {
+nav ul li {
     float: left;
-  }
+}
   
-  nav ul li a {
+nav ul li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  nav ul li a:hover {
+nav ul li a:hover {
     background-color: #F58A07;
-  }
+}
 
 h1 {
     font-size: 3em; /* 40px/16=2.5em */
@@ -75,4 +75,22 @@ p {
 .logo {
     background-color: #364156;
     text-align: center;
+}
+
+.center
+{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* A 3x3 grid of images, all the same size.
+    The images are responsive (resize according to screen size) */
+.collage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #364156;
+    padding: 10px;
 }
