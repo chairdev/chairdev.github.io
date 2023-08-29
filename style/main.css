@@ -14,6 +14,55 @@ body {
   padding: 0;
 }
 
+nav {
+    background-color: #293141;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #F58A07;
+  }
+
+h1 {
+    font-size: 3em; /* 40px/16=2.5em */
+}
+
+h2 {
+    font-size: 2em; /* 30px/16=1.875em */
+}
+
+p {
+    font-size: 1em; /* 14px/16=0.875em */
+}
+
+.blue
+{
+    color: #6CD4FF;
+}
+
+.green
+{
+    color: #23CE6B;
+}
+
 /* logo needs to be big and centered */
 .logo img {
     display: block;
