@@ -43,6 +43,8 @@ nav ul li a:hover {
 
 h1 {
     font-size: 3em; /* 40px/16=2.5em */
+    border: #293141;
+    border-style: solid none solid none;
 }
 
 h2 {
@@ -86,11 +88,20 @@ p {
 }
 
 /* A 3x3 grid of images, all the same size.
-    The images are responsive (resize according to screen size) */
+    The images should all be 448x192 px */
 .collage {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     background-color: #364156;
     padding: 10px;
+}
+
+.collage img {
+    border-radius: 6px;
+}
+
+.collage img:hover {
+    border-radius: 0px;
+    border: 6px solid #293141;
 }
