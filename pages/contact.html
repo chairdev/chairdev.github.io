@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/main.css">
+    <!--<script defer src="../script/about.js"></script>-->
+    <title>Chairdev - Contact Me</title>
+</head>
+<body>
+        <!-- NavBar -->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        <!-- End NavBar -->
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="../img/Chairdev.png" alt="Chairdev Logo">
+        <h2>● Contact me&nbsp;&nbsp;▾</h2>
+    </div>
+    <!-- End Logo -->
+
+    <!-- Main -->
+    <div class="main">
+        <div class="main-content">
+            <!--Contact form-->
+            <div class="contact">
+                <!-- php is faya gegaan -->
+                <form action="../php/contact.php" method="post">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="email">E-mail</label>
+                    <input type="text" autocomplete="e-mail" id="email" name="email" placeholder="Your e-mail..">
+
+                    <label for="email">Subject</label>
+                    <input type="text" autocomplete="mail-subject" id="subject" name="subject" placeholder="Subject">
+
+                    <label for="subject">Text</label>
+                    <textarea id="text" name="text" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+     
+</body>
+</html>
