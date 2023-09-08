@@ -22,6 +22,7 @@ function PrintStars()
         var starString = "";
         for (let j = 0; j < stars[i]; j++)
         {
+            //If the star is a half star, add a half star character (shout out to modulos)
             if (stars[i] % 1 != 0 && j == Math.floor(stars[i]))
             {
                 starString += halfStar;

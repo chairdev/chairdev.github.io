@@ -4,14 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function Main()
 {
-    //Set age
+    //Set age and study status
     document.getElementById("age").innerHTML = GetAge();
     document.getElementById("studyStatus").innerHTML = StudyStatus();
 }
 
 function GetAge() 
 {
-    //Get age if born 4th December 2005
+    //Get years since the 4th December 2005
     var birthday = new Date(2005, 11, 4);
     var today = new Date();
     var age = Math.floor((today-birthday) / (365.25 * 24 * 60 * 60 * 1000));
